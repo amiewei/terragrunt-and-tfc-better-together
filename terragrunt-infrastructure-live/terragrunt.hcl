@@ -36,7 +36,7 @@ generate "backend" {
   terraform {
     backend "remote" {
     hostname = "app.terraform.io"
-    organization = "yulei"
+    organization = "tf-se-test"
 
     workspaces {
       name = "terragrunt-${path_relative_to_include()}"

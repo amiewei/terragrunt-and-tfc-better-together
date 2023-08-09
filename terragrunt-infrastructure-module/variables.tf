@@ -1,7 +1,7 @@
 # Define your variables in here.
 variable "prefix" {
   type        = string
-  default     = "yuleiliu"
+  default     = "tfc-terragrunt"
   description = "description"
 }
 
@@ -17,3 +17,8 @@ variable "vmsize" {
   description = "aws ec2 instance vm type"
 }
 
+variable "aws_region" {
+  description = "AWS Region to deploy to"
+  type        = string
+  default     = "us-east-1"
+}

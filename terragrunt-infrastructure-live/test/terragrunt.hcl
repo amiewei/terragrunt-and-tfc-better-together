@@ -3,11 +3,11 @@ include "root" {
 }
 
 terraform {
-  source = "git::https://github.com/ausmartway/terraform-terragrunt-infrastructure-module?ref=0.0.3"
+  source = "../../terragrunt-infrastructure-module"
 }
 
 inputs = {
-  prefix = "yuleiliu"
+  prefix = "tfc-terragrunt-test"
   instance_type  = "t3.micro"
   environment = "test"
 }

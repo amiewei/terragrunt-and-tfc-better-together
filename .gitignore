@@ -13,3 +13,4 @@ vendor
 **/.terragrunt-source-version
 **/.terragrunt-module-manifest
 **/.terragrunt-cache/
+**/.terraform.lock.hcl
